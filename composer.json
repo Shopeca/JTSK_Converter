@@ -1,0 +1,27 @@
+{
+	"name": "shopeca/jtsk-converter",
+	"description": "Converter between JTSK and GPS coordinates",
+	"keywords": [
+		"gps",
+		"jtsk"
+	],
+	"license": [
+		"MIT"
+	],
+	"authors": [
+		{
+			"name": "Josef Zamrzla"
+		},
+		{
+			"name": "Tom Hnatovsky"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"JTSK\\": "src/"
+		}
+	}
+}
